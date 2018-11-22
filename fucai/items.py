@@ -6,12 +6,13 @@
 # https://doc.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-
-
 class FucaiItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    title = scrapy.Field()
-    link = scrapy.Field()
-    desc = scrapy.Field()
+    #红球
+    redBall = scrapy.Field()
+    #蓝球
+    blueBall = scrapy.Field()
+    #期号
+    period = scrapy.Field()
     pass
